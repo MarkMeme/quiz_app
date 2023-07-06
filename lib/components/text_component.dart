@@ -8,8 +8,12 @@ class TextComponent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
+      textAlign: TextAlign.center,
       data,
-      style: TextStyle(fontSize: size, fontWeight: FontWeight.bold),
+      style: TextStyle(
+        fontSize: size,
+        fontWeight: FontWeight.bold,
+      ),
     );
   }
 }
